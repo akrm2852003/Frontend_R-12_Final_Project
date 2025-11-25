@@ -1,0 +1,29 @@
+.contactcontainer {
+  background-color: #0F132A;
+  color: white;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactcontainer h1 {
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 35px;
+  margin-top: 30px;
+}
+.contactcontainer p {
+  text-align: center;
+  color: #a9b0d0;
+  font-size: 20px;
+  font-weight: 300;
+}
+.contactform form {
+  background-color: #181c33;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+  padding: 30px 30px;
+}
